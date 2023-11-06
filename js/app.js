@@ -10,8 +10,6 @@ let myChart;
 mostrarMonedas();
 
 async function mostrarMonedas() {
-  const delay = ms => new Promise(res => setTimeout(res, ms));
-  await delay(1000);
   const monedita = await capturarMoneda();
   monedita.forEach((moneda) => {
     const option = document.createElement("option");
