@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+    <title>Conversor Moneda</title>
+  </head>
+  <body>
+    <div class="cajaPrincipal">
+      <h1>Conversor de Monedas</h1>
+    <select name="" id="moneda__option"></select>
+    <button id="btnCalcular" onclick="calcular()">Convertir</button>
+    <input type="number" id="txtCantidad" class="cantidadAcalcular" placeholder="Ingresa Valor $ chileno"></input>  
+    
+    <div class="caja__resultado">
+      <div id="resultado">
+      </div>
+    </div>
+
+    <div class="caja__grafico">
+      <canvas id="myChart" width="400px" height="400px">
+      </canvas>
+    </div>
+    </div>
+    
+    
+    <script src="./js/app.js" ></script>
+  </body>
+</html>

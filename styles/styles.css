@@ -1,0 +1,78 @@
+
+
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+      
+      h1 {
+        color: #333;
+        margin-top: 20px;
+      }
+      
+      #moneda__option {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 10px;
+      }
+      
+      .cantidadAcalcular {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 10px;
+      }
+      
+      #btnCalcular {
+        background-color: #007BFF;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+      }
+      
+      #btnCalcular:hover {
+        background-color: #0056b3;
+      }
+      
+      #resultado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      
+      .caja__resultado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+ .caja__grafico{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .cajaPrincipal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
