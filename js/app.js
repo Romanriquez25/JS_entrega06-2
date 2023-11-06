@@ -1,4 +1,4 @@
-let url                 = "https:mindicador.cl/api";
+let url                 = "https://mindicador.cl/api";
 let moneda__option      = document.querySelector("#moneda__option");
 let cantidadAcalcular   = document.getElementById("txtCantidad");
 let btnCalcular         = document.querySelector("#btnCalcular");
