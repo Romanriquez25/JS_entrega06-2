@@ -16,6 +16,7 @@ async function mostrarMonedas() {
     option.value = moneda.valor;
     option.textContent = `${moneda.nombre}`;
     moneda__option.appendChild(option);
+    return monedita;
   });
 }
 
